@@ -20,7 +20,6 @@ const Navbar = () => {
             href="#benefits">
             Benefits
           </Link>
-         <UserButton/>
         </nav>
       </header>
     </div>
