@@ -50,7 +50,7 @@ export function VideoCatalog() {
       const formData = new FormData();
       formData.append('video', video);
 
-      const response = await axios.post('http://localhost:9000/uploadvideo', formData, {
+      const response = await axios.post('https://clientmanager.onrender.com/uploadvideo', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
