@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 import { BrainCircuit } from "lucide-react"
-import { UserButton } from '@clerk/nextjs'
 const Navbar = () => {
   return (
     <div>
